@@ -1,0 +1,43 @@
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 22px;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid rgba(38, 40, 66, 0.12);
+  border-radius: 7px;
+  background: rgb(237, 234, 234);
+}
+
+.button:hover {
+  background: rgba(38, 40, 66, 0.12)
+}
+
+
+.button__loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button__spinner {
+  animation: button-spinner 0.5s linear infinite;
+  width: 17px;
+  height: 17px;
+}
+
+@keyframes button-spinner {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

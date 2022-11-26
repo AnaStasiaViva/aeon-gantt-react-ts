@@ -1,0 +1,17 @@
+.header_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.btn_export{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+
+  span{
+    color: #262842;
+  }
+}

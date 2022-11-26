@@ -1,0 +1,23 @@
+
+.gantt_skeleton{
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.skeleton_sm{
+  width: 120px;
+  height: 50px;
+}
+
+.skeleton_nav{
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.skeleton_table{
+  height: 50px;
+}

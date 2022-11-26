@@ -1,0 +1,14 @@
+.head_date span{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--font-color);
+}
+
+.head_date span:first-child::after{
+  content: '/';
+}
+.head_date span:first-child{
+  padding-right: 5px;
+}
